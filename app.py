@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return 'Esta es una app desplegada en Heroku!'
+    return '<h1>Esta es una app desplegada en Heroku!</h1>'
 
 
 if __name__ == '__main__':
